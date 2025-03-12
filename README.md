@@ -7,7 +7,8 @@ private:
     int age;
 
 public:
-    Person(std::string name, int age) : name(name), age(age) {}
+    Person(std::string name, int age) : name(name), age(age) {
+}
 
     std::string getName() const {
         return name;
